@@ -1,11 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import ComidaScreen from './src/screens/ComidaScreen';
+import AppNavigator from './src/navigation/AppNavigator';
 
 export default function App() {
-  return (
-    <>
-      <StatusBar style="light" />
-      <ComidaScreen />
-    </>
-  );
+  return <AppNavigator />;
 }
